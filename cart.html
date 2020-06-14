@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>购物车</title>
+        <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="css/cart.css">
+</head>
+<body>
+    
+            <div class="topBox">
+                <div class="centerBox">
+                     <a href="index.html" class="logo"></a>
+                     <div class="car">我的购物车</div>
+                     <div class="fonts">登录|注册</div>
+                </div>
+            </div>
+            <div class="bigBox">
+                  <div class="head">
+                      <div class="box"><input type="checkbox" value="check" name="check01" class="checkAll"><span class="font1">全选</span></div>
+                      <div class="img"></div>
+                      <div class="name"><span>商品名称</span></div>
+                      <div class="price"><span>单价</span></div>
+                      <div class="num"><span>数量</span></div>
+                      <div class="subtotal"><span>小计</span></div>
+                      <div class="handle1"><span>操作</span></div>
+                  </div>
+                  <div class="firstProducyt">
+                    <div class="box"><input type="checkbox" value="check" name="check01" class="check1"><span class="font1"></span></div>
+                    <div class="img"></div>
+                    <div class="name"><span>米家扫拖一体机器人</span></div>
+                    <div class="price"><span>1599元</span></div>
+                    <div class="num">
+                        <div class="amount">
+                            <a class="num_minus">-</a>
+                            <input type="text" value="1" class="single">
+                            <a class="num_plus">+</a>
+                        </div>
+                    </div>
+                    <div class="subtotal"><span>1599</span></div>
+                    <div class="handle"></div>
+                  </div>
+                  <div class="firstProducyt">
+                    <div class="box"><input type="checkbox" value="check" name="check01" class="check1"><span class="font1"></span></div>
+                    <div class="img two"></div>
+                    <div class="name"><span>MEXHOO护腰单人沙发</span></div>
+                    <div class="price"><span>479元</span></div>
+                    <div class="num">
+                        <div class="amount">
+                            <a class="num_minus">-</a>
+                            <input type="text" value="1" class="single">
+                            <a class="num_plus">+</a>
+                        </div>
+                    </div>
+                    <div class="subtotal"><span>479元</span></div>
+                    <div class="handle"></div>
+                  </div>
+                  <div class="firstProducyt">
+                    <div class="box"><input type="checkbox" value="check" name="check01" class="check1"><span class="font1"></span></div>
+                    <div class="img three"></div>
+                    <div class="name"><span>小米手表Color</span></div>
+                    <div class="price"><span>699元</span></div>
+                    <div class="num">
+                        <div class="amount">
+                            <a class="num_minus">-</a>
+                            <input type="text" value="1" class="single">
+                            <a class="num_plus">+</a>
+                        </div>
+                    </div>
+                    <div class="subtotal"><span>699元</span></div>
+                    <div class="handle"></div>
+                  </div>
+                  <div class="firstProducyt">
+                    <div class="box"><input type="checkbox" value="check" name="check01" class="check1"><span class="font1"></span></div>
+                    <div class="img four"></div>
+                    <div class="name"><span>小米10</span></div>
+                    <div class="price"><span>4299元</span></div>
+                    <div class="num">
+                        <div class="amount">
+                            <a class="num_minus">-</a>
+                            <input type="text" value="1" class="single">
+                            <a class="num_plus">+</a>
+                        </div>
+                    </div>
+                    <div class="subtotal"><span>4299元</span></div>
+                    <div class="handle"></div>
+                  </div>
+                  <div class="buttonBox">
+                       <div class="leftBox">
+                           <a>继续购物</a>
+                           <span class="product">共<i id="total">2</i>件商品，已选择<i id="zero">0</i>件商品</span>
+                       </div>
+                       <span class="price">
+                        合计：<em id="total-price">0.00</em>元
+                       </span>
+                       <a class="settlement">去结算</a>                       
+                  </div>
+            </div>
+            <script src="js/cart.js"></script>
+</body>
+</html>
